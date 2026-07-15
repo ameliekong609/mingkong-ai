@@ -14,7 +14,9 @@ export const metadata: Metadata = {
     siteName: "mingkong.ai",
     images: [
       {
-        url: "/og-image.png",
+        url: "https://mingkong.ai/linkedin-card.jpg",
+        secureUrl: "https://mingkong.ai/linkedin-card.jpg",
+        type: "image/jpeg",
         width: 1200,
         height: 630,
         alt: "Dr Ming Kong - Controlled digital workers for enterprise AI",
@@ -27,7 +29,14 @@ export const metadata: Metadata = {
     title: "Dr Ming Kong | Enterprise Applied AI and Controlled Digital Workers",
     description:
       "Enterprise Applied AI, agentic systems and controlled digital workers.",
-    images: ["/og-image.png"],
+    images: [
+      {
+        url: "https://mingkong.ai/linkedin-card.jpg",
+        alt: "Dr Ming Kong - Controlled digital workers for enterprise AI",
+        width: 1200,
+        height: 630,
+      },
+    ],
   },
 };
 

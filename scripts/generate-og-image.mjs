@@ -71,4 +71,9 @@ await sharp(Buffer.from(svg))
   .png({ compressionLevel: 9, adaptiveFiltering: true })
   .toFile("public/og-image.png");
 
+await sharp(Buffer.from(svg))
+  .flatten({ background: "#ffffff" })
+  .jpeg({ quality: 92, mozjpeg: true })
+  .toFile("public/linkedin-card.jpg");
+
 await writeFile("public/og-image.svg", svg);
