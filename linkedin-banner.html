@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1584, initial-scale=1" />
+    <title>Dr Ming Kong LinkedIn Banner</title>
+    <link rel="stylesheet" href="./linkedin-banner.css" />
+  </head>
+  <body>
+    <main class="banner" aria-label="LinkedIn banner for Dr Ming Kong">
+      <div class="grid-lines" aria-hidden="true"></div>
+      <div class="safe-zone" aria-hidden="true"></div>
+
+      <section class="copy" aria-label="Positioning">
+        <h1>
+          <span>Enterprise AI</span>
+          <span>shouldn&rsquo;t stop</span>
+          <span>at workflows.</span>
+        </h1>
+        <p class="second-line">
+          <span>It should deploy</span>
+          <span>controlled digital workers.</span>
+        </p>
+        <p class="disciplines">
+          <span>Agentic AI</span>
+          <span aria-hidden="true">•</span>
+          <span>Multi-Agent Systems</span>
+          <span aria-hidden="true">•</span>
+          <span>Enterprise RAG</span>
+          <span aria-hidden="true">•</span>
+          <span>Production AI</span>
+        </p>
+      </section>
+
+      <section class="architecture" aria-label="Controlled digital worker architecture sketch">
+        <svg viewBox="0 0 560 300" role="img" aria-labelledby="architecture-title">
+          <title id="architecture-title">Objective to controlled release architecture sketch</title>
+          <defs>
+            <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+              <feDropShadow
+                dx="0"
+                dy="18"
+                stdDeviation="18"
+                flood-color="#cbd5e1"
+                flood-opacity="0.34"
+              />
+            </filter>
+          </defs>
+
+          <path class="rail" d="M280 30 C280 75 280 111 280 145 C280 183 280 224 280 278" />
+          <path class="branch branch-a" d="M280 126 C257 126 244 126 226 126" />
+          <path class="branch branch-b" d="M280 222 C304 222 320 222 336 222" />
+
+          <g class="node node-primary" transform="translate(194 12)" filter="url(#soft-shadow)">
+            <rect width="172" height="38" rx="11" />
+            <text x="86" y="25">Objective</text>
+          </g>
+
+          <g class="node" transform="translate(186 60)" filter="url(#soft-shadow)">
+            <rect width="188" height="38" rx="11" />
+            <text x="94" y="25">Investigation</text>
+          </g>
+
+          <g class="node node-soft" transform="translate(54 107)">
+            <rect width="172" height="38" rx="11" />
+            <text x="86" y="25">Tool Use</text>
+          </g>
+
+          <g class="node" transform="translate(194 156)" filter="url(#soft-shadow)">
+            <rect width="172" height="38" rx="11" />
+            <text x="86" y="25">Evidence</text>
+          </g>
+
+          <g class="node node-soft" transform="translate(336 203)">
+            <rect width="170" height="38" rx="11" />
+            <text x="85" y="25">Review</text>
+          </g>
+
+          <g class="node node-release" transform="translate(166 252)" filter="url(#soft-shadow)">
+            <rect width="228" height="38" rx="11" />
+            <text x="114" y="25">Controlled Release</text>
+          </g>
+
+          <circle class="junction" cx="280" cy="79" r="3.5" />
+          <circle class="junction" cx="280" cy="126" r="3.5" />
+          <circle class="junction" cx="280" cy="175" r="3.5" />
+          <circle class="junction" cx="280" cy="222" r="3.5" />
+        </svg>
+      </section>
+
+      <p class="site">mingkong.ai</p>
+    </main>
+  </body>
+</html>
