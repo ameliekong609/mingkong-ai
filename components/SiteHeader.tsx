@@ -13,13 +13,13 @@ export function SiteHeader() {
       <div className="mx-auto flex h-16 w-full max-w-7xl items-center justify-between px-6 lg:px-8">
         <a
           href="#home"
-          className="group flex items-center gap-3 text-sm font-semibold text-slate-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-600"
+          className="group flex min-w-0 items-center gap-3 text-sm font-semibold text-slate-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-600"
           aria-label={`${profile.name} home`}
         >
           <span className="grid h-8 w-8 place-items-center rounded-md border border-slate-200 bg-white text-sm text-blue-700 shadow-sm">
             MK
           </span>
-          <span className="hidden sm:inline">{profile.name}</span>
+          <span className="truncate">{profile.name}</span>
         </a>
         <nav className="hidden items-center gap-7 md:flex" aria-label="Primary navigation">
           {navItems.map((item) => (
