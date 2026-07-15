@@ -6,6 +6,7 @@ import { SelectedProjects } from "@/components/SelectedProjects";
 import { SiteHeader } from "@/components/SiteHeader";
 import { Speaking } from "@/components/Speaking";
 import { ApproachVisual } from "@/components/ApproachVisual";
+import { WhyBuildingThis } from "@/components/WhyBuildingThis";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <main id="main">
         <Hero />
         <ApproachVisual />
+        <WhyBuildingThis />
         <About />
         <SelectedProjects />
         <Principles />

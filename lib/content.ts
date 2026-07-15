@@ -14,7 +14,7 @@ export const profile = {
 };
 
 export const navItems = [
-  { label: "About", href: "#about" },
+  { label: "Why", href: "#why" },
   { label: "Systems", href: "#projects" },
   { label: "Principles", href: "#principles" },
   { label: "Speaking", href: "#speaking" },
