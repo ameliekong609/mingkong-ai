@@ -12,6 +12,14 @@ export const metadata: Metadata = {
       "A personal brand site for Dr Ming Kong, focused on enterprise Applied AI, agentic systems and controlled digital workers.",
     url: "https://mingkong.ai",
     siteName: "mingkong.ai",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Dr Ming Kong - Controlled digital workers for enterprise AI",
+      },
+    ],
     type: "website",
   },
   twitter: {
@@ -19,6 +27,7 @@ export const metadata: Metadata = {
     title: "Dr Ming Kong | Enterprise Applied AI and Controlled Digital Workers",
     description:
       "Enterprise Applied AI, agentic systems and controlled digital workers.",
+    images: ["/og-image.png"],
   },
 };
 

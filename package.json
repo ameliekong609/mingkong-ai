@@ -9,6 +9,7 @@
     "dev": "next dev",
     "build": "next build",
     "deploy": "wrangler deploy",
+    "generate:og": "node scripts/generate-og-image.mjs",
     "start": "next start",
     "lint": "eslint"
   },
