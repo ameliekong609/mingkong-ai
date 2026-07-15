@@ -2,23 +2,23 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Dr Ming Kong | Controlled Digital Workers for Enterprise AI",
+  title: "Dr Ming Kong | Enterprise Applied AI and Controlled Digital Workers",
   description:
-    "Dr Ming Kong designs enterprise AI systems that move beyond simple workflows into controlled digital workers with evidence grounding, review, human approval and release controls.",
+    "Dr Ming Kong builds enterprise AI systems that move beyond simple workflows into controlled digital workers with evidence grounding, review, human approval and release controls.",
   metadataBase: new URL("https://mingkong.ai"),
   openGraph: {
-    title: "Dr Ming Kong | Controlled Digital Workers for Enterprise AI",
+    title: "Dr Ming Kong | Enterprise Applied AI and Controlled Digital Workers",
     description:
-      "Enterprise AI shouldn't stop at workflows. It should deploy controlled digital workers.",
+      "A personal brand site for Dr Ming Kong, focused on enterprise Applied AI, agentic systems and controlled digital workers.",
     url: "https://mingkong.ai",
     siteName: "mingkong.ai",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dr Ming Kong | Controlled Digital Workers for Enterprise AI",
+    title: "Dr Ming Kong | Enterprise Applied AI and Controlled Digital Workers",
     description:
-      "Enterprise AI systems with evidence grounding, review, human approval and release controls.",
+      "Enterprise Applied AI, agentic systems and controlled digital workers.",
   },
 };
 

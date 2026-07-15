@@ -5,9 +5,9 @@ export function About() {
   return (
     <Section
       id="about"
-      eyebrow="Point of view"
-      title="Applied AI leadership built around one principle: autonomy must come with control."
-      intro="Much of today's agentic AI is still a predefined workflow with an LLM inserted into several steps. Ming's work focuses on systems that can make bounded decisions about what to investigate next, use tools, revisit assumptions and correct errors without losing evidence, governance or human accountability."
+      eyebrow="About Ming"
+      title="I build autonomy with control, not automation for its own sake."
+      intro="Much of today's agentic AI is still a predefined workflow with an LLM inserted into several steps. My work focuses on systems that can make bounded decisions about what to investigate next, use tools, revisit assumptions and correct errors without losing evidence, governance or human accountability."
     >
       <div className="grid gap-6 lg:grid-cols-[1fr_0.78fr]">
         <div className="grid gap-4 sm:grid-cols-3 lg:grid-cols-1">

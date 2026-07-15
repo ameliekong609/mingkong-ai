@@ -5,7 +5,7 @@ import { Principles } from "@/components/Principles";
 import { SelectedProjects } from "@/components/SelectedProjects";
 import { SiteHeader } from "@/components/SiteHeader";
 import { Speaking } from "@/components/Speaking";
-import { ThesisVisual } from "@/components/ThesisVisual";
+import { ApproachVisual } from "@/components/ApproachVisual";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       <SiteHeader />
       <main id="main">
         <Hero />
-        <ThesisVisual />
+        <ApproachVisual />
         <About />
         <SelectedProjects />
         <Principles />

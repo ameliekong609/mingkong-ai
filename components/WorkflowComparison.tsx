@@ -15,7 +15,7 @@ function FlowColumn({
 
   return (
     <div
-      className={`rounded-lg border p-4 ${
+      className={`min-w-0 rounded-lg border p-4 ${
         isWorker
           ? "border-blue-200 bg-blue-50/60"
           : "border-slate-200 bg-white/85"
@@ -65,13 +65,13 @@ function FlowColumn({
 
 export function WorkflowComparison() {
   return (
-    <div className="rounded-lg border border-slate-200 bg-white/85 p-4 shadow-2xl shadow-slate-200/60 backdrop-blur">
+    <div className="min-w-0 rounded-lg border border-slate-200 bg-white/85 p-4 shadow-2xl shadow-slate-200/60 backdrop-blur">
       <div className="mb-3 border-b border-slate-200 pb-3">
         <p className="text-sm font-semibold text-slate-950">
-          The shift Ming is building toward
+          How I separate workflows from digital workers
         </p>
         <p className="mt-1 text-sm text-slate-500">
-          Deterministic workflows still matter. They are not enough for work that
+          Workflows still matter. I use controlled digital workers when the work
           must investigate, revisit and prove its reasoning.
         </p>
       </div>

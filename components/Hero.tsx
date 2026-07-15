@@ -5,19 +5,22 @@ import { profile } from "@/lib/content";
 export function Hero() {
   return (
     <section
-      id="thesis"
+      id="home"
       className="relative overflow-hidden bg-[linear-gradient(180deg,#f8fbff_0%,#ffffff_62%,#ffffff_100%)]"
     >
       <div className="absolute inset-0 system-grid opacity-80" aria-hidden="true" />
       <div className="relative mx-auto grid w-full max-w-7xl items-center gap-10 px-6 py-10 sm:py-14 lg:grid-cols-[minmax(0,0.95fr)_minmax(420px,0.78fr)] lg:px-8 lg:py-16">
-        <div className="animate-enter">
-          <p className="mb-5 text-sm font-semibold uppercase text-blue-700">
-            {profile.descriptor}
-          </p>
-          <h1 className="max-w-4xl text-4xl font-semibold leading-[1.04] text-slate-950 sm:text-5xl lg:text-6xl">
+        <div className="min-w-0 animate-enter">
+          <div className="mb-6">
+            <p className="text-sm font-semibold text-blue-700">{profile.name}</p>
+            <p className="mt-2 max-w-2xl break-words text-sm font-medium leading-6 text-slate-500">
+              {profile.descriptor}
+            </p>
+          </div>
+          <h1 className="max-w-4xl text-3xl font-semibold leading-[1.08] text-balance text-slate-950 sm:text-5xl sm:leading-[1.04] lg:text-6xl">
             {profile.positioning}
           </h1>
-          <p className="mt-7 max-w-3xl text-lg leading-8 text-slate-600">
+          <p className="mt-7 max-w-3xl text-base leading-8 text-slate-600 sm:text-lg">
             {profile.summary}
           </p>
           <p className="mt-5 max-w-3xl text-sm font-semibold leading-6 text-slate-800">

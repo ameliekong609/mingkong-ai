@@ -1,21 +1,20 @@
 export const profile = {
   name: "Dr Ming Kong",
-  descriptor: "Enterprise Applied AI | Agentic Systems | Customer Adoption",
-  positioning:
-    "Enterprise AI shouldn't stop at workflows. It should deploy controlled digital workers.",
+  descriptor: "Enterprise Applied AI Leader | Agentic AI Architect | Customer Engineering",
+  positioning: "I build controlled digital workers for enterprise AI.",
   summary:
-    "I design and deploy enterprise AI systems that can investigate, reason, use tools, review and correct their work, while preserving evidence, human judgement and production controls.",
+    "I am Ming Kong, an enterprise Applied AI leader and hands-on architect. I design and deploy AI systems that can investigate, reason, use tools, review and correct their work, while preserving evidence, human judgement and production controls.",
   credibility:
-    "Production multi-agent systems, enterprise knowledge agents and controlled agentic architectures across Google Cloud, AWS and Azure.",
+    "My work spans production multi-agent systems, enterprise knowledge agents and controlled agentic architectures across Google Cloud, AWS and Azure.",
   belief:
-    "I believe the next decade of enterprise AI will be defined not by larger models, but by better systems for controlled delegation.",
+    "The future of enterprise AI is not another chatbot. It is trustworthy digital workers operating inside better systems for controlled delegation.",
   currentRole: "Senior Manager, AI Analytics, PwC Australia",
   audience:
     "Built for technical leaders, applied AI teams and enterprise decision makers evaluating frontier AI systems in real operating environments.",
 };
 
 export const navItems = [
-  { label: "Thesis", href: "#thesis" },
+  { label: "About", href: "#about" },
   { label: "Systems", href: "#projects" },
   { label: "Principles", href: "#principles" },
   { label: "Speaking", href: "#speaking" },
