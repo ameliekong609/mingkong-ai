@@ -15,14 +15,16 @@ npm run dev
 npm run build
 ```
 
-This project is configured as a static Next.js export for Cloudflare Pages. The production output is generated in `out/`.
+This project is configured as a static Next.js export for Cloudflare Workers/Pages. The production output is generated in `out/`.
 
-## Cloudflare Pages settings
+## Cloudflare Workers Git settings
 
-- Framework preset: Next.js or None
 - Build command: `npm run build`
-- Build output directory: `out`
+- Deploy command: `npx wrangler deploy`
+- Project name: `mingkong-ai`
 - Root directory: `/`
-- Environment variable: none required
+- Environment variable: `NODE_VERSION=22`
 
-After the first successful Pages deployment, add `mingkong.ai` as a custom domain in the Cloudflare Pages project.
+The `wrangler.jsonc` file tells Cloudflare to serve the static export from `out/`.
+
+After the first successful deployment, add `mingkong.ai` as a custom domain in Cloudflare.
