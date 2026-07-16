@@ -14,8 +14,8 @@ export default function Home() {
       <SiteHeader />
       <main id="main">
         <Hero />
-        <ApproachVisual />
         <WhyBuildingThis />
+        <ApproachVisual />
         <About />
         <SelectedProjects />
         <Principles />

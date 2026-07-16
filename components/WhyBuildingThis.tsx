@@ -1,8 +1,7 @@
 const lines = [
-  "After years of deploying enterprise AI, I became increasingly convinced that simply adding LLMs to workflows was not enough.",
-  "I wanted to explore systems that could investigate, challenge assumptions and use evidence.",
-  "I wanted those systems to operate safely under human governance.",
-  "That means review loops, approval gates and controlled release, not open-ended automation.",
+  "Working across enterprise delivery, entrepreneurship and early-stage AI investing has convinced me that the hardest AI problem is no longer access to capable models. It is building systems that organisations can trust, govern and adopt.",
+  "After years of deploying enterprise AI, I became increasingly convinced that simply adding LLMs to existing workflows was not enough. I wanted to explore systems that could investigate, challenge assumptions, use evidence and correct their work—while remaining safe under human governance.",
+  "That means bounded autonomy, review loops, approval gates and controlled release, not open-ended automation.",
   "That is the idea behind my public engineering work.",
 ];
 
